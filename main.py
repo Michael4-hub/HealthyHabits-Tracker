@@ -87,11 +87,11 @@ def main():
 if __name__ == "__main__":
     main()
     import matplotlib.pyplot as plt
-    dates = ['Jun 14', 'Jun 15', 'Jun 16']
-    habit_counts = [2, 3, 1]
+    dates = []
+    habit_counts = []
     plt.bar(dates, habit_counts)
-    plt.title("Habits Tracked Per Day")
-    plt.ylabel("Number of Habits")
+    plt.title()
+    plt.ylabel()
     plt.show()
     while True:
         print("Welcome to HealthyHabits Tracker!")
@@ -126,3 +126,6 @@ if __name__ == "__main__":
 
     print(" Tip of the Day:")
     print(random.choice(tips))
+
+
+
